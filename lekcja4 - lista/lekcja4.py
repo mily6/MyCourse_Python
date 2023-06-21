@@ -1,0 +1,32 @@
+lista = [1, 2, "c", "d", ]
+print (lista)
+print(lista[2])
+lista[2] = 4
+print(lista[2])
+print(lista)
+tekst = "Hello World"
+print(tekst[0])
+print(lista + ["f", "g"])
+lista += ["f", "g"]
+print(lista * 3)
+print("Ilosc elementow: ", len(lista))
+lista.append("f")
+print(lista)
+lista.append(["r", "t"])
+print(lista)
+print(lista[7][1])
+lista.insert(3, 3)
+print(lista)
+print("Ilosc: ", lista.count("f"))
+print("Index:", lista.index("f"))
+lista.remove("f")
+print(lista)
+lista2 = [1, 20, 35 , -5, 0]
+print("Min: ", min(lista2))
+print("Max: ", max(lista2))
+lista2.sort()
+print(lista2)
+lista2.reverse()
+print(lista2)
+lista2.clear()
+print(lista2)
